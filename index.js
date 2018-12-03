@@ -25,5 +25,12 @@ var slideIndex = 1;
               dots[slideIndex-1].className += " active";
             }
 
-
+            document.addEventListener("DOMContentLoaded", (event) => {
+              let submitButton = document.getElementById("submit-button")
+              let textField = document.getElementById("input-important")
+              
+              submitButton.addEventListener("click", (event) => {
+                alert("Your email has been submitted" )
+              })
+            })
                     

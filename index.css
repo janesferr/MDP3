@@ -362,15 +362,6 @@ input[type=submit]:hover {
   padding: 20px;
 }
 
-$("#kitten").hover(function(){
-
-  $(this).find("img").fadeOut();
-
-}, function() {
-
-  $(this).find("img").fadeIn();
-
-});
 
 @keyframes cf3FadeInOut {
   0% {
